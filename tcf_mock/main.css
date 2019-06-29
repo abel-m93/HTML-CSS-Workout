@@ -1,0 +1,132 @@
+/*CSS RESETS*/
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+    
+  /* body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  } */
+
+  ol, ul{
+      list-style-type: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.redBrd{
+    border: 2px solid red;
+}
+
+.yellowBrd{
+    border: 2px solid yellow;
+
+}
+
+.blueBrd{
+    border: 2px solid blue;
+}
+
+.navContainer{
+    
+}
+.mainNavContainer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logoContainer{
+    /* flex-grow:1; */
+}
+
+.NavItems{
+    display: flex;
+
+}
+
+.mainNavItem{
+    padding: 10px;
+    font-size: .875rem;
+    color: #5a5a5a;
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    /* line-height: 2.875rem; */
+    font-weight: 500;
+}
+.asideIconsContainer{
+    /* flex-grow: 1; */
+    display: flex;
+    margin-left: auto;
+}
+
+.subNavContainer{
+    background-color: #5a5a5a;
+}
+.navItemContainer{
+    max-width: 1400px;
+    /* margin: 0 auto; */
+    
+}
+
+.subNavContainer .navItemContainer{
+    margin: 0 auto;
+}
+.subNavItem{
+    padding: 10px;
+    font-size: .875rem;
+    color: #ffffff;
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    /* line-height: 2.875rem; */
+    font-weight: 500;
+}
+
+/*Start Page Content*/
+
+.pageContainer{
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.slideContainer, .slide, #slide1{
+    width: 100%;
+    min-height: 330px;
+}
+
+#slide1{
+    background: url("images/ladyOnPhone.jpg");
+}
+
+.slideContent h2, .slideContent p{
+    color: #ffffff;
+}
+
+.slideForm{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    background: hsla(0,0%,100%,.8);
+}
+
+.featuredIconContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.featuredContentContainer{
+    display: flex;
+    width: 100%;
+    height:auto;
+    /* box-sizing: border-box; */
+}
+
+.featuredContentItem, .featuredImgContainer{
+    width: 100%;
+    height: auto;
+}
