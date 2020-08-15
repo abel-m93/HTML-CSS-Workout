@@ -4,10 +4,18 @@ html {
     font-size: 16px;
   }
     
+<<<<<<< HEAD
 body{
     background-color: #f7f7f7;
     font-family: Montserrat,Helvetica,Arial,sans-serif;
 }
+=======
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+>>>>>>> 5a3a8ef9ecf50bd8503f427a8fe6f99a3c350cd1
 
   ol, ul{
       list-style-type: none;
@@ -30,6 +38,7 @@ body{
 .blueBrd{
     border: 2px solid blue;
 }
+<<<<<<< HEAD
 
 .navContainer{
     
@@ -169,3 +178,5 @@ body{
 .blurbSection{
     background-color: #ffffff;
 }
+=======
+>>>>>>> 5a3a8ef9ecf50bd8503f427a8fe6f99a3c350cd1
