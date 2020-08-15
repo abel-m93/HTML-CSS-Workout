@@ -1,14 +1,13 @@
 /*CSS RESETS*/
 html {
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 16px;
   }
     
-  /* body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-  } */
+body{
+    background-color: #f7f7f7;
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+}
 
   ol, ul{
       list-style-type: none;
@@ -52,21 +51,47 @@ html {
 }
 
 .mainNavItem{
-    padding: 10px;
+    padding-left: 10px;
+    padding-top: .875rem;
     font-size: .875rem;
     color: #5a5a5a;
+    /* font-family: tcf-icons,Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif; */
     font-family: Montserrat,Helvetica,Arial,sans-serif;
-    /* line-height: 2.875rem; */
+    line-height: .875rem;
+    font-style: normal;
     font-weight: 500;
+    letter-spacing: 1px;
 }
 .asideIconsContainer{
     /* flex-grow: 1; */
     display: flex;
     margin-left: auto;
+    font-size: 1rem;
 }
+
+.iconContainer{
+    padding-right: 1rem;
+}
+
+.glassIcon{
+    /* background-color: red; */
+    padding: .25rem;
+}
+.lockContain{    
+    color: #c4161c;
+}
+.lockIcon{
+    color: #ffffff;
+    background-color: #c4161c;
+    border-radius: 50%;
+    padding: .25rem;
+}
+
 
 .subNavContainer{
     background-color: #5a5a5a;
+    margin: 0;
+    padding: 0;
 }
 .navItemContainer{
     max-width: 1400px;
@@ -76,9 +101,10 @@ html {
 
 .subNavContainer .navItemContainer{
     margin: 0 auto;
+
 }
 .subNavItem{
-    padding: 10px;
+    /* padding: 10px; */
     font-size: .875rem;
     color: #ffffff;
     font-family: Montserrat,Helvetica,Arial,sans-serif;
@@ -117,16 +143,29 @@ html {
 .featuredIconContainer{
     display: flex;
     justify-content: space-around;
+    background-color: #ffffff;
 }
 
 .featuredContentContainer{
     display: flex;
     width: 100%;
     height:auto;
+    background-color: #ffffff;
     /* box-sizing: border-box; */
 }
 
+.contentHeading{
+    margin: 0;
+    background-color: #ededec;
+}
+.moreInfo{
+    background-color: #ededec;
+}
 .featuredContentItem, .featuredImgContainer{
     width: 100%;
     height: auto;
+}
+
+.blurbSection{
+    background-color: #ffffff;
 }
