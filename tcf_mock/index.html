@@ -8,26 +8,254 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div id="pageWrapper">
+    <div id="pageWrapper redBrd">
         <header class="navWrapper">
             <div class="secondaryNav">
-                <div class="secondaryNavItem_wrapper1">
+                <div class="secondaryNavCont">
+                    <div class="secondaryNavItem_wrapper1">
+                        <ul>
+                            <li>Community</li>
+                            <li>Locations</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div class="secondaryNavItem_wrapper2">
+                        <div class="userLocation">
+                            <span class="userLocationLabel">My Location: <a href="#">Enter Zip</a></span>
+
+                        </div>
+                        <div class="siteSearchWrapper">
+                            <span class="searchLabel"><a href="#">Search</a></span>
+                            <span class="searchLabel"><a href="#">ICON</a></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="mainNav">
+                <ul>
+                    <li>
+                        <div class="logoCont">
+                            <a href="#" class="logoLink"><img src="images/homePageImgs/tcf-logo.svg" alt=""></a>
+                        </div>
+                    </li>
+                    <li>Personal</li>
+                    <li>Wealth Management</li>
+                    <li>Small Business</li>
+                    <li>Commercial</li>
+                    <li>
+                        <div class="loginBtn">Log In</div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="pageCont">
+            <div class="heroLogInCont">
+                <div class="heroImgCont">
+                    <img src="images/homePageImgs/3homeimage.jpg" alt="">
+                </div>
+                <div class="logInCont">
+                    <h2>Log In</h2>
+                    <form action="" id = "homeLogin">
+                        <div class="selectFieldCont">
+                            <select name="accoutnSelect" id="accountSelect">
+                                <option value="Personal Banking">Personal Banking</option>
+                                <option value="Business Banking">Business Banking</option>
+                                <option value="Credit Card">Credit Card</option>
+                                <option value="Loan Payment">Loan Payment</option>
+                                <option value="Autobooks">Autobooks</option>
+                                <option value="Remote Deposit">Remote Deposit</option>
+                                <option value="Lockbox">Lockbox</option>
+                                <option value="iConnect2invest">iConnect2invest</option>
+                                <option value="Trust:CConect">Trust:CConect</option>
+                                <option value="Retirement plan portal">Retirement plan portal</option>
+                                <option value="Equipment financing & leasing">Equipment financing & leasing</option>
+                            </select>
+                        </div>
+
+                        
+                        <div class="loginFieldCont">
+                            <input type="text" placeholder="Login ID">
+                        </div>
+
+                        <div class="passFieldCont">
+                            <input type="text" placeholder="Password">
+                        </div>
+
+                        <div class="forgotUser">
+                            <span><a href="#">Forgot ID?</a></span>
+                        </div>
+                        <div class="submitBtn">
+                            <input type="submit" value="Next">
+                        </div>
+                        
+                    </form>
+                    <div class="logInLinks">
+                        <span><a href="#">Enroll now</a> | <a href="#">Continue Application</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featuredPostsCont">
+                <div class="featuredCard">
+                    <div class="featuredImg">
+                        <img src="images/homePageImgs/thumbcovid.jpg" alt="">
+                    </div>
+                    <div class="featuredHeading">
+                        <h3><strong>COVID-19 readiness and relief efforts</strong></h3>
+                    </div>
+                    <div class="featuredBlurb">
+                        <p>Stay informed on current banking center changes and financial relief programs.</p>
+                    </div>
+                </div>
+
+                <div class="featuredCard">
+                    <div class="featuredImg">
+                        <img src="images/homePageImgs/debitcardcampaign.jpg" alt="">
+                    </div>
+                    <div class="featuredHeading">
+                        <h3><strong>Do more with your TCF debit card</strong></h3>
+                    </div>
+                    <div class="featuredBlurb">
+                        <p>Explore easy, safe ways to pay, plus tools that put you in control of your checking account.</p>
+                    </div>
+                </div>
+                
+                <div class="featuredCard">
+                    <div class="featuredImg">
+                        <img src="images/homePageImgs/thumbinvesting.jpg" alt="">
+                    </div>
+                    <div class="featuredHeading">
+                        <h3><strong>Investing and Savings</strong></h3>
+                    </div>
+                    <div class="featuredBlurb">
+                        <p>When it comes to your financial goals, taking action is the first step to your success. You know where you are -- and where you want to go. A Financial Advisor can help you get there.</p>
+                    </div>
+                </div>
+
+                <div class="featuredCard">
+                    <div class="featuredImg">
+                        <img src="images/homePageImgs/investingsaving.jpg" alt="">
+                    </div>
+                    <div class="featuredHeading">
+                        <h3><strong>Commercial Solutions</strong></h3>
+                    </div>
+                    <div class="featuredBlurb">
+                        <p>Our team of experts will provide a wide range of customized, Commerical Banking lending and financing solutions that fit any company's needs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="promoCont">
+                <h4>Our Promise</h4>
+                <h2><em>We </em>helps you take care of you</h2>
+                <p>Wherever you are in your financial journey we offer tailored solutions to fit your needs.</p>
+                <a href="#">Learn More</a>    
+            </div>
+
+            <div class="showcaseSection">
+
+                <div class="heroLogInCont">
+                    <div class="heroImgCont">
+                        <img src="images/homePageImgs/3gettingstarted.jpg" alt="">
+                    </div> 
+                    <div class="showcaseBlurb">
+                        <h4>Tips & Takeaways</h4>
+                        <h3>Getting started with TCF</h3>
+                        <p>Explore tips and topics to make the most of your account</p>
+                        <a href="" class = "showcaseLink">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="heroLogInCont">
+                    <div class="heroImgCont">
+                        <img src="images/homePageImgs/3talkwithadvisor.jpg" alt="">
+                    </div> 
+                    <div class="showcaseBlurb">
+                        <h4>Tips & Takeaways</h4>
+                        <h3>What to talk about with your advisor</h3>
+                        <p>When meeting with your advisor, do you often wonder what you should talk about other than your portfolio and asset allocation? Here are 5 suggested topics to discuss at your next meeting.</p>
+                        <a href="" class = "showcaseLink">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="heroLogInCont">
+                    <div class="heroImgCont">
+                        <img src="images/homePageImgs/3accountingsolutions.jpg" alt="">
+                    </div> 
+                    <div class="showcaseBlurb">
+                        <h4>Tips & Takeaways</h4>
+                        <h3>Introducing a new invoicing and accounting solution</h3>
+                        <p>Send invoices and get paid online with Autobooks. Enroll today and begin accepting online payments via ACH and credit card with funds deposited directly to your TCF business checking accounts.</p>
+                        <a href="" class = "showcaseLink">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            
+        </main>
+
+        <div class = "footerSection">
+            <div class="footerCont">
+                <div class="footerLinks">
+                    <h4>Let's connect</h4>
+                    <div class="socialLinkFooter">
+
+                        <span class="socialImage">
+                            <img src="images/homePageImgs/facebook-footer.svg" alt="">
+                        </span>  
+
+                        <span class="socialImage">
+                            <img src="images/homePageImgs/twitter-footer.svg" alt="">
+                        </span>  
+
+                        <span class="socialImage">
+                            <img src="images/homePageImgs/linkedin-footer.svg" alt="">
+                        </span>  
+
+                        <span class="socialImage">
+                            <img src="images/homePageImgs/instagram-footer.svg" alt="">
+                        </span>  
+
+                        <span class="socialImage">
+                            <img src="images/homePageImgs/youtube-footer.svg" alt="">
+                        </span> 
+
+                        <span class="socialImage">
+                            <img src="images/homePageImgs/pinterest-footer.svg" alt="">
+                        </span> 
+
+                    </div>
+                </div>
+                <div class="footerLinks">
                     <ul>
-                        <li>Community</li>
-                        <li>Locations</li>
-                        <li>Contact</li>
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>NewsRoom</li>
+                        <li>Investor Relations</li>
                     </ul>
                 </div>
-                <div class="secondaryNavItem_wrapper2">
+                <div class="footerLinks">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Member FDIC</li>
+                        <li>Contact</li>
+                        <li>Location</li>
+                    </ul>
+                </div>
+                <div class="footerLinks">
+                    <ul>
+                        <li>Fair Lending Statement</li>
+                        <li>Online Privacy and Security Policy</li>
+                        <li>Terms of Use</li>
                     </ul>
                 </div>
             </div>
-            <div class="mainNav"></div>
-        </header>
+            <div class="richTextSection">
+                <p>©1999-2020 TCF Financial Corporation. All Rights Reserved. TCF is proud to be an Affirmative Action and Equal Opportunity Employer, Minority/Female/Disabled/Veteran/Gender Identity/Sexual Orientation.</p>
+            </div>
+        </div>
     </div>
 
 </body>
